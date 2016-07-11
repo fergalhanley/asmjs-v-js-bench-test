@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>asm.js v JS bench test</title>
+</head>
+<style>
+    * {
+        font-family: sans-serif;
+        color: #0d0;
+        background-color: #333;
+    }
+</style>
+<body>
+<div>
+    <h1>asm.js Vs regular JS</h1>
+    <p>
+        This is a benchmark test comparing the performance of ams.js with normal JavaScript.<br>
+        The scenario for the test is taken from code used for producing a shift filter effect<br>
+        on visualization images at <a href="https://vizamp.com">vizamp.com</a> and you can read a full description<br>
+        on this <a href="https://vizamp.com">blog article</a>.
+    </p>
+    <p>
+        ToDo: comparable test using WebGL
+    </p>
+    <button onclick="runTest()">Run Test</button><br><br>
+    <textarea id="log" style="height:300px;width:400px;font-size: 14px"></textarea>
+</div>
+<script type="application/javascript" src="test.js"></script>
+</body>
+</html>
